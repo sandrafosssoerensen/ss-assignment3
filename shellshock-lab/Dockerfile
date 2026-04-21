@@ -7,9 +7,9 @@ RUN apt-get update && apt-get install -y \
     build-essential
 
 
-RUN wget https://ftp.gnu.org/gnu/bash/bash-4.3.tar.gz && \
-    tar xzf bash-4.3.tar.gz && \
-    cd bash-4.3 && \
+RUN wget https://ftp.gnu.org/gnu/bash/bash-4.1.tar.gz && \
+    tar xzf bash-4.1.tar.gz && \
+    cd bash-4.1 && \
     ./configure && make && make install
 
 
